@@ -410,3 +410,59 @@ int main() {
     return 0;
 }
 ```
+### [4] C++ break Statement
+In C++, the break statement terminates the loop when it is encountered.
+```cpp
+break;
+```
+:fire: :fire:
+<br>
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/cpp-break-statement.png"/>
+<br>
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 5; i++) {
+        // break condition     
+        if (i == 3) {
+            break;
+        }
+        cout << i << endl;
+    }
+
+return 0;
+}
+```
+* **Note:** The break statement is usually used with decision-making statements.
+
+### [4] C++ continue Statement
+In computer programming, the continue statement is used to skip the current iteration of the loop and the control of the program goes to the next iteration.
+```cpp
+continue;
+```
+:fire::fire:
+<br>
+<img src="https://www.programiz.com/sites/tutorial2program/files/cpp-continue-statement_1.png"/>
+<br>
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 5; i++) {
+        // condition to continue
+        if (i == 3) {
+            continue;
+        }
+
+        cout << i << endl;
+    }
+
+    return 0;
+}
+```
+

@@ -562,7 +562,9 @@ And, storage class controls two different properties of a variable: lifetime (de
 
 Depending upon the storage class of a variable, it can be divided into 4 major types:
 
-       Local variable : A variable defined inside a function (defined inside function body between braces) is called a local variable or automatic variable.Its scope is only limited to the function where it is defined. In simple terms, local variable exists and can be accessed only inside a function.
+       Local variable : A variable defined inside a function (defined inside function body between braces) <br>
+       is called a local variable or automatic variable.Its scope is only limited to the function where  <br>
+       it is defined. In simple terms, local variable exists and can be accessed only inside a function. <br>
   ```cpp
   #include <iostream>
 using namespace std;
@@ -591,7 +593,9 @@ void test()
 }
   ```
   
-    Global variable : If a variable is defined outside all functions, then it is called a global variable.The scope of a global variable is the whole program. This means, It can be used and changed at any part of the program after its declaration.
+    Global variable : If a variable is defined outside all functions, then it is called a global  <br>
+    variable.The scope of a global variable is the whole program. This means, It can be used and <br> 
+    changed at any part of the program after its declaration. <br>
 ```cpp
 #include <iostream>
 using namespace std;
@@ -621,7 +625,10 @@ void test()
 }
 ```
 
-    Static local variable : A static local variable exists only inside a function where it is declared (similar to a local variable) but its lifetime starts when the function is called and ends only when the program ends.The main difference between local variable and static variable is that, the value of static variable persists the end of the program.
+    Static local variable : A static local variable exists only inside a function where it is declared  <br>
+    (similar to a local variable) but its lifetime starts when the function is called and ends only when  <br>
+    the program ends.The main difference between local variable and static variable is that, the value of  <br>
+    static variable persists the end of the program. <br>
 
 ```cpp
 #include <iostream>

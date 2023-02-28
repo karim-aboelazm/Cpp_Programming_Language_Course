@@ -117,9 +117,9 @@ int main(){
             cout<<endl;
             break;
        }
-       printf("\t\t\tPress any key to continue...");
-    getchar();
-    system("cls");
+        printf("\t\t\tPress any key to continue...");
+        getchar();
+        system("cls");
     } while (choice!=5);
     
 
